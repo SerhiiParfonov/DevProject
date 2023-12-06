@@ -13,19 +13,36 @@
 
 </head>
 <style>
-  
+  .header {
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: 800;
+  }
+  .course {
+    font-size: 2rem;
+  }
+  .name, .year {
+    font-size: 1.5rem;
+  }
 </style>  
-<body>
+<body class="">
      <!-- CONTAINER START -->
-    <div class="container">
+    <div class="container col bg-secondary h-100">
         <!-- HEADER START -->
-        <div class="header d-flex ">GITHUB PROJECT</div><!-- HEADER END -->
+        <div class="header bg-dark d-flex p-4 align-items-center justify-content-center text-white">GITHUB PROJECT</div><!-- HEADER END -->
+        <!-- MENU AND CONTENT START -->
+        <div class="contcontainer d-flex">
         <!-- SIDEBAR START -->
-        <div class="sidebar">GITHUB MENU</div><!-- SIDEBAR END -->
+        <div class="sidebar p-3 col bg-warning d-flex flex-grow-1">GITHUB MENU</div><!-- SIDEBAR END -->
         <!-- MENU START -->
-        <div class="content">CONTENT</div><!-- MENU END -->
+        <div class="content p-3 col-9">CONTENT</div><!-- MENU END -->
+        </div><!-- MENU AND CONTENT END -->
         <!-- FOOTER START -->
-        <div class="footer">gg</div><!-- FOOTER END -->
+        <div class="footer d-flex align-items-center bg-primary text-white p-3">
+            <div class="name">Serhii Parfonov</div>
+            <div class="course mx-auto">Development Tools</div>
+            <div class="year">Fall, 2023</div>
+        </div><!-- FOOTER END -->
     </div><!-- CONTAINER END -->
   
 
