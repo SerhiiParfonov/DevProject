@@ -35,21 +35,24 @@
      <!-- CONTAINER START -->
     <div class="container col bg-secondary h-100">
         <!-- HEADER START -->
-        <div class="header bg-dark d-flex p-4 align-items-center text-white"><img src="./img/github9.jpg" class="mr-auto education"><h1 class="mx-auto header">GITHUB PROJECT</h1></div><!-- HEADER END -->
+        <div class="header bg-dark d-flex p-4 align-items-center text-white"><img src="./img/github10.jpg" class="mr-auto education"><h1 class="mx-auto header">GITHUB PROJECT</h1></div><!-- HEADER END -->
         <!-- MENU AND CONTENT START -->
         <div class="contcontainer d-flex ">
         
         <!-- CONTENT START -->
         <div class="content1 p-3 col-9 d-flex flex-column justify-content-center">
-          <p class="">GitHub, Inc. was originally a flat organization with no middle managers; 
-            in other words, "everyone is a manager" (self-management). Employees could choose 
-            to work on projects that interested them (open allocation), but the chief executive set salaries. 
-            (i.e. Individual or groups of company executive leaders decides on project aims and development, including 
-            funding)
-            In 2014, GitHub, Inc. added a layer of middle management in response to serious harassment allegations against 
-            its senior leadership. As a result of the scandal, Tom Preston-Werner resigned from his position as CEO.
+          <p class="">Content limits
+            DockerHub has content limits.The readme content is limited to 25,000 bytes, 
+            and short-descriptionis limited to 100 bytes.This action truncates content to prevent 
+            the request being rejected.If the content has been truncated a warning will be issued in the run log.
+            Specifying the file path
+            The action assumes that there is a file called README.md located at the root of the repository.
+            If this is not the case the path can be specified with the readme-filepathinput.
+            Using the GitHub repository description
+            The GitHub repository description can be used for the Docker Hub short-descriptonby passing the 
+            description from the event context.
             </p>
-            <img src="./img/github8.jpg" class="w-75 mx-auto">
+            <img src="./img/github11.jpg" class="w-75 mx-auto">
         </div><!-- CONTENT END -->
         <!-- SIDEBAR START -->
         <div class="sidebar p-3 col bg-warning d-flex">
